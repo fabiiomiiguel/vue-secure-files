@@ -65,6 +65,10 @@ Once the directive is registered, you can use it in your Vue templates.
 
 See `/example` for a demo. To build it, run `npm install && npm run build`.
 
+## Credits
+
+This project is based in [vue-auth-image](https://gitlab.com/jlalande/vue-auth-image) (by Jean Lalande).
+
 ## License
 
 [MIT](https://opensource.org/licenses/MIT)
