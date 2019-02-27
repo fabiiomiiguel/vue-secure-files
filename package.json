@@ -1,6 +1,6 @@
 {
   "name": "vue-secure-files",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Vue directive to load and download secured files",
   "author": "Mateus Silva <mateus.silva@lsafety.com>",
   "license": "MIT",
