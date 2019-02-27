@@ -36,7 +36,7 @@
   }
 
   vueSecureFiles.install = function (Vue) {
-    Vue.directive('sec-files', {
+    Vue.directive('sec-file', {
       bind: function (el, binding) {
         setFile(el, binding);
       },
