@@ -7,12 +7,12 @@ pages.
 ## Overview
 
 Browsers don't send custom headers such as `Authorization` when retrieving
-resources specified in a `<a>` or `<img>` tags.
+resources specified in `<a>` or `<img>` html tags.
 
-This Vue.js directive overcomes this limitation by providing a way to load your
-files as any other resources and then embedding them into your web pages using
-the `data:image/FILETYPE;base64` URI scheme.
-
+This Vue.js directive overcomes this limitation by providing a way to load files as any other resources securely by:
+ * Embed images directly into web pages using `data:image/FILETYPE;base64` URI scheme;
+ * Download files via AJAX.
+ 
 ## Requirements
 
 - vue: \^2.0.0
