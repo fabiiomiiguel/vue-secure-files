@@ -29,9 +29,9 @@ $ npm install vue-secure-files --save
 From CDN:
 
 ``` html
-<script src="https://raw.githubusercontent.com/logicalsafety/vue-secure-files/0.0.1/vue-secure-files.js"></script>
+<script src="https://raw.githubusercontent.com/logicalsafety/vue-secure-files/x.x.x/vue-secure-files.js"></script>
 <!-- OR -->
-<script src="https://raw.githubusercontent.com/logicalsafety/vue-secure-files/0.0.1/vue-secure-files.min.js"></script>
+<script src="https://raw.githubusercontent.com/logicalsafety/vue-secure-files/x.x.x/vue-secure-files.min.js"></script>
 ```
 
 ## API
