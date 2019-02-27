@@ -1,0 +1,48 @@
+{
+  "name": "vue-secure-files",
+  "version": "0.0.1",
+  "description": "Vue directive to load and download secured files",
+  "author": "Mateus Silva <mateus.silva@lsafety.com>",
+  "license": "MIT",
+  "main": "vue-secure-files.js",
+  "scripts": {
+    "build": "webpack example/example.js example/example.build.js && uglifyjs vue-secure-files.js -c -m > vue-secure-files.min.js",
+    "dev": "webpack --watch example/example.js example/example.build.js",
+    "lint": "eslint vue-secure-files.js example/example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/logicalsafety/vue-secure-files.git"
+  },
+  "homepage": "https://github.com/logicalsafety/vue-secure-files",
+  "bugs": {
+    "url": "https://github.com/logicalsafety/vue-secure-files/issues"
+  },
+  "peerDependencies": {
+    "vue": "^2.0.0",
+    "axios": ">= 0.5.0 < 1"
+  },
+  "devDependencies": {
+    "axios": "^0.5.0",
+    "babel-eslint": "~7.2.3",
+    "eslint": "~4.1.0",
+    "uglify-js": "^3.0.19",
+    "vue": "^2.3.4",
+    "webpack": "^3.0.0"
+  },
+  "keywords": [
+    "vue",
+    "vue-secure-files",
+    "directive",
+    "authentication",
+    "authorization",
+    "token",
+    "headers",
+    "resources",
+    "src",
+    "href",
+    "data-uri",
+    "data",
+    "uri"
+  ]
+}
