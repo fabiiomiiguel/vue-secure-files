@@ -1,6 +1,6 @@
 # vue-secure-files
 
-![npm](https://img.shields.io/npm/v/vue-secure-files.svg) ![npm](https://img.shields.io/npm/dt/vue-secure-files.svg)
+[![npm](https://img.shields.io/npm/v/vue-secure-files.svg)](https://www.npmjs.com/package/vue-secure-files) [![npm](https://img.shields.io/npm/dt/vue-secure-files.svg)](https://www.npmjs.com/package/vue-secure-files)
 
 A reusable directive for [Vue.js](https://github.com/vuejs/vue) that loads file
 requiring authentication and includes it as data in-line in your web
