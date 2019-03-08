@@ -9,7 +9,10 @@
   }
 
   function setFile(el, binding) {
-    if (binding.oldValue === undefined || binding.value !== binding.oldValue) {
+    if (
+      binding.value !== null && binding.value !== undefined &&
+      (binding.oldValue === undefined || binding.value !== binding.oldValue)
+    ) {
       var fileUrl = binding.value;
       axios({
         method: 'get',

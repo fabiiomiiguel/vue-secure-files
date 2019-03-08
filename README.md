@@ -57,10 +57,20 @@ axios.defaults.headers.common['Authorization'] = authHeader;
 
 Once the directive is registered, you can use it in your Vue templates.
 
+To show an image:
 ``` html
 <template>
   <div>
-    <img v-sec-file="https://api.app.com/images/authenticatedImg.png">
+    <img v-sec-file="'https://api.app.com/images/authenticatedImg.png'">
+  </div>
+</template>
+```
+
+To download a file:
+``` html
+<template>
+  <div>
+    <a v-sec-file="'https://api.app.com/file/authenticatedFile.pdf'"></a>
   </div>
 </template>
 ```
