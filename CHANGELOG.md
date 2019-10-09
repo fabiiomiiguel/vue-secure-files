@@ -9,3 +9,7 @@ Directive name updated from `v-sec-files` to `v-sec-file`
 ## 1.1.0 - 2019-03-08
 
 Calling the directive with `null` or `undefined` will not make a axios call
+
+## 1.1.1 - 2019-10-09
+
+Fix NPM dependencies vulnerabilities: axios
