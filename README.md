@@ -2,14 +2,11 @@
 
 [![npm](https://img.shields.io/npm/v/vue-secure-files.svg)](https://www.npmjs.com/package/vue-secure-files) [![npm](https://img.shields.io/npm/dt/vue-secure-files.svg)](https://www.npmjs.com/package/vue-secure-files)
 
-A reusable directive for [Vue.js](https://github.com/vuejs/vue) that loads file
-requiring authentication and includes it as data in-line in your web
-pages.
+A reusable directive for [Vue.js](https://github.com/vuejs/vue) that loads file requiring authentication and includes it as data in-line in your web pages.
 
 ## Overview
 
-Browsers don't send custom headers such as `Authorization` when retrieving
-resources specified in `<a>` or `<img>` html tags.
+Browsers don't send custom headers such as `Authorization` when retrieving resources specified in `<a>` or `<img>` html tags.
 
 This Vue.js directive overcomes this limitation by providing a way to load files as any other resources securely by:
  * Embed images directly into web pages using `data:image/FILETYPE;base64` URI scheme;
@@ -28,20 +25,11 @@ From npm:
 $ npm install vue-secure-files --save
 ```
 
-From CDN:
-
-``` html
-<script src="https://raw.githubusercontent.com/logicalsafety/vue-secure-files/x.x.x/vue-secure-files.js"></script>
-<!-- OR -->
-<script src="https://raw.githubusercontent.com/logicalsafety/vue-secure-files/x.x.x/vue-secure-files.min.js"></script>
-```
-
 ## API
 
 ### secure-files
 
-A directive that requests an resources URI asynchronously and embed it into your `<a>`
-`<img>` tag using the [data URI scheme](https://en.wikipedia.org/wiki/Data_URI_scheme).
+A directive that requests an resources URI asynchronously and embed it into `<a>` `<img>` tags using the [data URI scheme](https://en.wikipedia.org/wiki/Data_URI_scheme).
 
 ``` js
 import Vue from 'vue';
